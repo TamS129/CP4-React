@@ -1,5 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
+import '../css/footer.css';
+
 
 const Footer = props => (
   <footer className="bottom">

@@ -114,15 +114,16 @@ body {
   
   /* Comment Section Styles */
   .comment-section {
-    background-color: rgba(255, 255, 255, 0.95); /* Lighten the background for better contrast */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    padding: 30px; /* Increase padding for better spacing */
+    padding: 20px;
     margin-top: 40px;
     max-width: 900px;
     margin: 0 auto;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for better visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: left;
-    color: #333; /* Ensure the text color contrasts well */
+    max-height: 400px; /* Set a max height for the comment section */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
   }
   
   .comment-section h3 {
@@ -133,14 +134,18 @@ body {
   .comment-section ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: block; /* Ensure the list is block-level */
   }
   
   .comment-section li {
+    color:#2a2a2a;
     background-color: #f9f9f9;
     margin: 10px 0;
-    padding: 15px; /* Adjust padding for more breathing room */
+    padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow for individual comments */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: block; /* Ensure each comment stacks vertically */
   }
   
   .comment-section li p {
@@ -154,17 +159,17 @@ body {
   }
   
   .comment-section textarea {
-    padding: 12px;
-    margin-bottom: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #2a2a2a;
     font-size: 1rem;
   }
   
   .comment-section button {
     background-color: #b48360;
     color: white;
-    padding: 12px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

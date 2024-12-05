@@ -20,10 +20,14 @@ const Header = props => {
 
   return (
     <header className="top">
-      {/* Logo Image as Title */}
       <img src="../images/logowithouttext.png" alt="Coal Miner's Cookbook Logo" className="logo" />
 
-      {/* Search Bar */}
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/recipes">Recipe</Link></li>
+      </ul>
+
       <form onSubmit={handleSearch} className="search-form">
         <input
           type="text"
@@ -33,13 +37,6 @@ const Header = props => {
         />
         <button type="submit">Search</button>
       </form>
-
-      {/* Navigation and Dropdown */}
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/recipes">Recipe</Link></li>
-      </ul>
       <button><Link to="/login">Login</Link></button>
     </header>
   );

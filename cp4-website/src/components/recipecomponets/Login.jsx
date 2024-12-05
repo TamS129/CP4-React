@@ -8,9 +8,6 @@ const Login = props => (
     <button className="google" onClick={() => props.authenticate("Google")}>
       Log In With Google
     </button>
-    <button className="twitter" onClick={() => props.authenticate("Twitter")}>
-      Log In With Twitter
-    </button>
   </nav>
 );
 
