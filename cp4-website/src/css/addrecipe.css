@@ -1,4 +1,4 @@
-/* Add Recipe Page */
+
 .add-recipe-page {
     background-color: #f9f9f9;
     padding: 50px 20px;
@@ -9,7 +9,6 @@
     text-align: center;
   }
   
-  /* Form Container */
   .recipe-form {
     display: flex;
     flex-direction: column;
@@ -24,7 +23,7 @@
     margin: 0 auto;
   }
   
-  /* Input Fields */
+
   .recipe-form input,
   .recipe-form select {
     width: 100%;
@@ -36,7 +35,7 @@
     font-family: 'Arial', sans-serif;
   }
   
-  /* Button Styling */
+  
   .recipe-form button {
     background-color: #b48360;
     color: white;
@@ -49,12 +48,12 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Button Hover Effect */
+ 
   .recipe-form button:hover {
     background-color: #9f6a4f;
   }
   
-  /* Responsive Styles */
+
   @media (max-width: 768px) {
     .recipe-form input,
     .recipe-form select,

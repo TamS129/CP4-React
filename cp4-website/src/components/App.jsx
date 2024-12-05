@@ -29,20 +29,18 @@ function App() {
     if (filter === 'all') {
       setFilteredRecipes(recipes);
     } else {
-      setFilteredRecipes(recipes.filter((recipe) => recipe.type === filter)); // Filter by type
+      setFilteredRecipes(recipes.filter((recipe) => recipe.type === filter)); 
     }
   }, [filter, recipes]);
 
-  // Handle changing filter
   const handleFilterChange = (type) => {
-    setFilter(type); // Update filter when a new type is selected
+    setFilter(type); 
   };
 
   return (
     <>
     <Header tagline="Recipes from the heart of Appalachia" />
-    <div className="recipe-list-page"> {/* Only styles for the recipe section */}
-      {/* Filter Section */}
+    <div className="recipe-list-page"> 
       <div className="filter-navigation">
         <ul className="filter-list">
           <li><Link to="#" onClick={() => handleFilterChange('breakfast')}>Breakfast</Link></li>

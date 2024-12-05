@@ -1,9 +1,9 @@
-/* Recipe List Page (Scoped to Recipes Section) */
+
 .recipe-list-page {
     margin-top: 20px;
   }
   
-  /* Recipe Grid Layout */
+ 
   .recipe-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -13,7 +13,7 @@
     max-width: 1200px;
   }
   
-  /* Recipe Card Styling */
+ 
   .recipe-card {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -43,7 +43,7 @@
     background: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 50px; /* Adjusted height for shorter bar */
+    height: 50px; 
   }
   
   .filter-list {
@@ -57,7 +57,7 @@
   
   .filter-list li a {
     text-decoration: none;
-    color: #7d5a50; /* Text color from the last version */
+    color: #7d5a50; 
     font-weight: bold;
     font-size: 0.9rem;
     transition: color 0.2s ease-in-out;
@@ -67,7 +67,7 @@
     color: #333;
   }
 
-  /* Submit Recipe Section */
+ 
 .submit-recipe-section {
   background-color: #f9f9f9;
   padding: 30px 20px;
@@ -78,7 +78,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Title Styling */
+
 .submit-recipe-section h2 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -87,7 +87,7 @@
   line-height: 1.4;
 }
 
-/* Button Styling */
+
 .submit-recipe-section button {
   background-color: #b48360;
   color: white;
@@ -100,19 +100,19 @@
   transition: background-color 0.3s ease;
 }
 
-/* Link Inside Button */
+
 .submit-recipe-section button a {
   text-decoration: none;
   color: white;
 }
 
-/* Button Hover Effect */
+
 .submit-recipe-section button:hover {
   background-color: #9f6a4f;
 }
 
 @media (max-width: 768px) {
-  /* Responsive Adjustments */
+ 
   .submit-recipe-section h2 {
     font-size: 1.5rem;
   }

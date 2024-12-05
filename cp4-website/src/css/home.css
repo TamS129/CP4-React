@@ -16,8 +16,8 @@
   
   .home-text-background {
     background-color: #ffffff;
-    border-radius: 50%; /* Circle background */
-    padding: 120px 150px; /* Increased padding to cover text, image, and links */
+    border-radius: 50%; 
+    padding: 120px 150px; 
     margin-bottom: 30px;
     animation: fadeIn 2s ease-in-out;
     display: flex;
@@ -38,7 +38,7 @@
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #9e7c4b; /* Same color as title */
+    color: #9e7c4b; 
     animation: fadeIn 2s ease-in-out;
   }
   
@@ -51,7 +51,7 @@
     width: 300px;
     height: auto;
     border-radius: 8px;
-    /* Removed box-shadow and any border */
+    
   }
   
   .home-buttons {
@@ -73,7 +73,7 @@
   }
   
   .home-button:hover {
-    background-color: #b48360; /* Slightly darker golden-brown */
+    background-color: #b48360;
   }
   
   .home-link {
@@ -81,7 +81,7 @@
     color: inherit;
   }
   
-  /* Animations */
+
   @keyframes fadeIn {
     0% {
       opacity: 0;

@@ -8,7 +8,7 @@ import Footer from './Footer';
 function SearchResults() {
     const [recipes, setRecipes] = useState([]);
     const [filteredRecipes, setFilteredRecipes] = useState([]);
-    const query = new URLSearchParams(useLocation().search).get("query") || ""; // Handle empty query
+    const query = new URLSearchParams(useLocation().search).get("query") || ""; 
 
     useEffect(() => {
         const recipesRef = ref(database, "recipes");
@@ -22,15 +22,15 @@ function SearchResults() {
 
             setRecipes(fetchedRecipes);
 
-            // Filter recipes by search query
+            
             if (query) {
                 const searchResults = fetchedRecipes.filter(recipe => 
-                    // Ensure recipe.recName exists and is a string before calling .toLowerCase()
+                    
                     recipe.recName && recipe.recName.toLowerCase().includes(query.toLowerCase())
                 );
                 setFilteredRecipes(searchResults);
             } else {
-                setFilteredRecipes(fetchedRecipes); // Show all recipes if no query
+                setFilteredRecipes(fetchedRecipes);
             }
         });
     }, [query]);

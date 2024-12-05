@@ -1,38 +1,37 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f5f5f5; /* Light background for the entire page */
+    background-color: #f5f5f5; 
   }
   
-  /* Recipe Page Layout */
+ 
   .recipe-page {
-    background: url('../images/coalbackground.png') no-repeat center center fixed; /* Coal background */
-    background-size: cover; /* Ensure coal image covers the page */
-    padding: 20px; /* Add padding around content */
-    min-height: 100vh; /* Ensure the page takes at least the full height of the viewport */
+    background: url('../images/coalbackground.png') no-repeat center center fixed; 
+    background-size: cover; 
+    padding: 20px; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; /* Center content horizontally */
+    align-items: center; 
   }
   
-  /* Recipe Description Container - White Box Holding All Text */
   .recipe_descrip {
     background-color: #f2ebe6;
-    padding: 30px; /* Add padding around content inside the box */
-    border-radius: 8px; /* Rounded corners */
-    margin-bottom: 20px; /* Space below the recipe content */
-    max-width: 900px; /* Limit the width of the recipe description */
-    width: 100%; /* Ensure it is responsive */
-    color: #333; /* Text color */
+    padding: 30px; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+    max-width: 900px; 
+    width: 100%;
+    color: #333; 
     position: relative;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle glow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   }
   
-  /* Inside the Recipe Box - Title and Author */
+  
   .recipe_title_container {
     text-align: center;
   }
@@ -49,7 +48,7 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Time to Cook Text */
+ 
   h3 {
     font-size: 1.5rem;
     color: #333;
@@ -57,21 +56,21 @@ body {
     margin-top: 10px;
   }
   
-  /* Ingredients Section */
+
   .ingredients {
     margin-top: 20px;
-    font-size: 1.2rem; /* Slightly larger text */
-    font-family: 'Georgia', serif; /* Vintage font */
-    color: #333; /* Text color */
+    font-size: 1.2rem; 
+    font-family: 'Georgia', serif; 
+    color: #333; 
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
   .ingredients ul {
-    list-style: none; /* Remove default list style */
+    list-style: none; 
     padding: 0;
-    text-align: center; /* Center the ingredients list */
+    text-align: center; 
   }
   
   .ingredients li {
@@ -79,22 +78,22 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
     position: relative;
-    padding-left: 30px; /* Add padding for the custom bullet */
-    font-family: 'Georgia', serif; /* Vintage font */
+    padding-left: 30px; 
+    font-family: 'Georgia', serif;
     color: #333;
   }
   
   .ingredients li::before {
-    content: '✓'; /* Add a checkmark symbol as the bullet point */
+    content: '✓'; 
     position: absolute;
     left: 0;
     top: 0;
-    color: #b48360; /* Use the button color for consistency */
-    font-size: 1.5rem; /* Slightly larger checkmark */
+    color: #b48360; 
+    font-size: 1.5rem; 
     font-weight: bold;
   }
-  
-  /* Instructions Section */
+ 
+
   .instructions {
     margin-top: 20px;
     font-size: 1rem;
@@ -104,15 +103,15 @@ body {
     margin: 10px 0;
   }
   
-  /* Recipe Image Style */
+  
   .recipe-page img {
     object-fit: cover;
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px; /* Adjust the space below the image */
+    margin-bottom: 20px; 
   }
   
-  /* Comment Section Styles */
+
   .comment-section {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -122,8 +121,8 @@ body {
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: left;
-    max-height: 400px; /* Set a max height for the comment section */
-    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    max-height: 400px;
+    overflow-y: auto; 
   }
   
   .comment-section h3 {
@@ -135,7 +134,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: block; /* Ensure the list is block-level */
+    display: block; 
   }
   
   .comment-section li {
@@ -145,7 +144,7 @@ body {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    display: block; /* Ensure each comment stacks vertically */
+    display: block;
   }
   
   .comment-section li p {
@@ -179,10 +178,10 @@ body {
     background-color: #9f6a4f;
   }
   
-  /* Recipe Page Styles */
+
   .recipe-page {
     position: relative;
-    background-image: url('../images/coalbackground.png'); /* Coal background */
+    background-image: url('../images/coalbackground.png'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

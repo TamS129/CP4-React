@@ -8,7 +8,7 @@ function Recipes() {
 
     useEffect(() => {
         const db = getDatabase();
-        const recipesRef = ref(db, 'recipes'); // Path to your recipes in Firebase
+        const recipesRef = ref(db, 'recipes'); 
 
         onValue(recipesRef, (snapshot) => {
             const data = snapshot.val();

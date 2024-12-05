@@ -5,7 +5,7 @@ import NotFound from "./NotFound";
 import HomePage from "./HomePage";
 import AboutPage from "./About";
 import RecipesPage from "./RecipesPage";
-import Login from './recipecomponets/Login';
+import Login from './auth/Login';
 import AddRecipe from "./AddRecipe";
 import SearchResults from "./SearchResults";
 

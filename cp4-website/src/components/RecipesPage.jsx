@@ -53,7 +53,7 @@ function RecipesPage() {
         ingred={recipe.ingredients}
         instructions={recipe.instructions}
         time={recipe.timeToCook}
-        image={recipe.image}  // Pass the image to RecipeLayout
+        image={recipe.image}  
       />
   
       <div className="comment-section">

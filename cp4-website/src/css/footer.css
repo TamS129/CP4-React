@@ -1,34 +1,33 @@
-/* Footer Styles */
 .footer {
-    background-color: #333; /* Dark background for the footer */
-    color: #fff; /* White text color */
-    padding: 15px 0; /* Reduce padding for a more compact footer */
-    text-align: center; /* Center the text horizontally */
+    background-color: #333; 
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
     position: relative;
     bottom: 0;
     width: 100%;
-    font-size: 0.3rem; /* Smaller font size for the footer text */
+    font-size: 0.3rem; 
   }
   
   .footer p {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
     font-size: 0.3rem;
   }
   
   .footer a {
-    color: #fff; /* White link color */
-    text-decoration: none; /* Remove underline */
+    color: #fff; 
+    text-decoration: none; 
     font-weight: bold;
   }
   
   .footer a:hover {
-    color: #b48360; /* Button-like hover effect */
+    color: #b48360; 
   }
   
-  /* Responsive footer for mobile screens */
+  
   @media (max-width: 768px) {
     .footer p {
-      font-size: 0.3em; /* Even smaller text on mobile */
+      font-size: 0.3em; 
     }
   }
   

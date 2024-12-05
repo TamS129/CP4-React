@@ -1,4 +1,4 @@
-// Ingredients.jsx
+
 import React from 'react';
 
 const Ingredients = ({ ingredients }) => {

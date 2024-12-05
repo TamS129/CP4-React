@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import Ingredients from './Ingredients';
 import Instructions from './Instructions';
@@ -11,7 +13,6 @@ const RecipeLayout = ({ recName, author, ingred, instructions, time, image }) =>
           <h3 className='author'>{author}</h3>
         </div>
         
-        {/* Add the recipe image below the title and within the container */}
         {image && <img src={image} alt={recName} className="recipe-image" />}
   
         <h3>Total time to cook: {time}</h3>
