@@ -1,3 +1,8 @@
+/**
+Name: Tamara Slone
+Date: 11/25/24
+Description:This the component that has a simple footer that appears at the bottom of each page. 
+*/
 import React from "react";
 import PropTypes from "prop-types";
 import '../css/footer.css';

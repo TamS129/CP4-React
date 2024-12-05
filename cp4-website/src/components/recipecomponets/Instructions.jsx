@@ -1,4 +1,8 @@
-
+/**
+Name: Tamara Slone
+Date: 11/24/24
+Description:This is a subcomponent that organizes the instructions for the recipe page. 
+*/
 import React from 'react';
 
 const Instructions = ({ recName, instructions }) => {

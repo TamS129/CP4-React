@@ -1,4 +1,8 @@
-/* home.css */
+/**
+Name: Tamara Slone
+Date: 12/2/24
+Description:This is the CSS that displays my homepage for the website.
+*/
 .home-page {
     background: url('../images/coalbackground.png') no-repeat center center fixed;
     background-size: cover;
@@ -29,7 +33,7 @@
   
   .home-title {
     font-size: 3rem;
-    color: #9e7c4b; /* Golden-brown color */
+    color: #9e7c4b; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     animation: slideInFromTop 1s ease-out;
   }

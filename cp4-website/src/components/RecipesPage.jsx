@@ -1,3 +1,8 @@
+/**
+Name: Tamara Slone
+Date: 11/29/24
+Description:This component grabs the recipe layout from RecipeLayout and organizes the data of the recipes into a single page. It also functions to add comments using localstorage.
+*/
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ref, onValue } from 'firebase/database';

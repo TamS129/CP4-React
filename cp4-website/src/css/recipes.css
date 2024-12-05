@@ -59,40 +59,37 @@ body {
 
   .ingredients {
     margin-top: 20px;
-    font-size: 1.2rem; 
-    font-family: 'Georgia', serif; 
-    color: #333; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .ingredients ul {
-    list-style: none; 
-    padding: 0;
-    text-align: center; 
-  }
-  
-  .ingredients li {
-    margin: 12px 0;
     font-size: 1.2rem;
-    font-weight: 500;
-    position: relative;
-    padding-left: 30px; 
     font-family: 'Georgia', serif;
     color: #333;
   }
   
+  .ingredients ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove extra space around the list */
+    display: block; /* Ensure items stack vertically */
+    text-align: left; /* Align the text to the left */
+  }
+  
+  .ingredients li {
+    margin: 10px 0; /* Adjust spacing between items */
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    padding-left: 30px;
+    color: #333;
+  }
+  
   .ingredients li::before {
-    content: '✓'; 
+    content: '✓';
     position: absolute;
     left: 0;
     top: 0;
-    color: #b48360; 
-    font-size: 1.5rem; 
+    color: #b48360;
+    font-size: 1.5rem;
     font-weight: bold;
   }
- 
 
   .instructions {
     margin-top: 20px;
@@ -154,11 +151,11 @@ body {
   .comment-section form {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
   .comment-section textarea {
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #2a2a2a;

@@ -1,3 +1,8 @@
+/**
+Name: Tamara Slone
+Date: 12/3/24
+Description:This is a component that holds the form that allows a user to post a new recipe to the website. It also updates the firebase database in real time. 
+*/
 import React from 'react';
 import { database } from "../firebase";
 import { ref, set, push } from "firebase/database";

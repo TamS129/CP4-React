@@ -1,3 +1,9 @@
+/**
+Name: Tamara Slone
+Date: 11/28/24
+Description:This is my componment that tracks and manages all of my routes throughout my project. 
+*/
+
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";

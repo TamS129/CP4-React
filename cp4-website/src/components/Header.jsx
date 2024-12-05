@@ -1,3 +1,8 @@
+/**
+Name: Tamara Slone
+Date: 11/25/24
+Description:This is the header component that acts as a search bar for the search results component and it works as a navigation bar.
+*/
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';

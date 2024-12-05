@@ -4,6 +4,7 @@ import { ref, onValue } from 'firebase/database';
 import { database } from "../firebase";
 import Header from './Header';
 import Footer from './Footer';
+import '../css/app.css';
 
 function SearchResults() {
     const [recipes, setRecipes] = useState([]);

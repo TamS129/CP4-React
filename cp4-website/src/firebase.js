@@ -1,4 +1,8 @@
-
+/**
+Name: Tamara Slone
+Date: 12/1/24
+Description:This is the configuration for my firebase appp.
+*/
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getDatabase } from "firebase/database";

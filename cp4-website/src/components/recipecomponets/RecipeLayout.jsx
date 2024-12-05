@@ -1,5 +1,9 @@
 
-
+/**
+Name: Tamara Slone
+Date: 11/24/24
+Description:This component helps the recipepage component by giving the layout of how the indvidual recipe pages should look in RecipesPages.jsx
+*/
 import React from 'react';
 import Ingredients from './Ingredients';
 import Instructions from './Instructions';

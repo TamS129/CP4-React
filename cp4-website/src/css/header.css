@@ -1,4 +1,8 @@
-
+/**
+Name: Tamara Slone
+Date: 12/2/24
+Description:This is the CSS that displays the header for all the webpages.
+*/
 .top {
   display: flex;
   justify-content: space-between;

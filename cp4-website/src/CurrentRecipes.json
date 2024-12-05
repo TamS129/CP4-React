@@ -4,7 +4,7 @@
         "recName": "BuckEye Balls",
         "description": "My family's favorite candy for the holidays! These BuckEye Balls or also know as peanut butter balls are oh so sweet!",
         "author": "Coal Miners Cook Book",
-        "type": "Dessert",
+        "type": "desserts",
         "timeToCook": "30 minutes",
         "ingredients": [
           "1 1/2 cups of creamy peanut butter",
@@ -14,13 +14,13 @@
           "2 cups of semi-sweet chocolate chips. Or any chocolate bar of your choosing."
         ],
         "instructions": "First mix peanut butter, powder sugar, vanilla extract, and unsalted butter into a bowl. Mix until peanut butter dough turns into a dough like consistency. Roll the peanut butter dough into a ball stick toothpicks into the balls and stick in the freezer to harden for at least 30 minutes. After 30 minutes you can either take your chocolate and microwave for 10 second intervals or temper your chocolate over boiling water. Once the chocolate has melted take your balls and dip them into the chocolate. Place them onto a parchement paper and leave to dry. Wait until chocolate has fully harden before serving. ",
-        "image": ".../public/buckeyeballs.jpg"
+        "image": ".../images/buckeyeballs.jpg"
       },
       "recipe2": {
         "recName": "Oreo Balls",
         "description": "Not a fan of buckeye balls? Or maybe your just not a fan of peanut butter. That's okay! These oreo buckeye balls are a good alternative to the classic peanut butter snack! Great for the holidays or if you're dying for something sweet!",
         "author": "Coal Miners Cook Book",
-        "type": "Dessert",
+        "type": "desserts",
         "timeToCook": "30 minutes",
         "ingredients": [
           "1 family-size package of Oreos",
@@ -30,36 +30,224 @@
           "Optional: Added milk chocolate chips/bar to drizzle on top of the oreo balls."
         ],
         "instructions": "Take your family size package of oreos and seperate the cookies from the cream. In a food processor crush the oreos until they are small crumbs. (A bag and rolling pin works just as well!) Then take your processed oreos, oreo cream, butter, and powder sugar and mix them all into a seperate bowl. Mix until the mixture develops into a dough-like consistency. Once you have your dough, roll up the mixture into several balls. Stick a toothpick into the balls and place in the freezer for about 30 minutes. Once the 30 minutes is up, grab your white chocolate and either microwave for 10 second intervals until the chocolate is smooth. Or take your chocolate and temper it over boiling water. Once the chocolate is ready, dip your oreo balls into the chocolate mix and leave to dry on a parchment paper. Wait until the chocolate is harden before serving. If you want to make your oreo balls look even more professional, wait until the chocolate is dry. Remove the tooth pick and melt some milk chocolate and place it into an icing bag. Create a few chocolate drizzles over the balls to give it a nice little finish.  ",
-        "image": "https://example.com/pancakes.jpg"
+        "image": "../images/oreoballs.jpg"
       },
       "recipe3": {
-        "recName": "Caesar Salad",
-        "author": "Gordon Ramsay",
-        "type": "Lunch",
-        "timeToCook": "10 minutes",
+        "recName": "Chicken Salad Sandwhiches",
+        "author": "Coal Miners Cook Book",
+        "description": "Easy to make and a soulful way to get a lot of protein! Although I wouldn't recommend ya'll eat it daily considering it's fat content. In my hometown it's joked to be the staple 'funeral' food, as it is customary in the Applachians for family's to bring lots of food during a funeral. Although I can see this being a classic food to take on picnics or just as a treat on those hot summer days.",
+        "type": "lunch",
+        "timeToCook": "1 hour and 40 minutes",
         "ingredients": [
-          "Romaine lettuce",
-          "Croutons",
-          "Caesar dressing",
-          "Parmesan cheese"
+          "1 pack of boneless chicken thighs",
+          "1/2 white onion",
+          "3-4 tablespoons of Pickle Relish",
+          "1/2 cup of mayo",
+          "1 teaspoon of salt and pepper"
         ],
-        "instructions": "Toss lettuce with dressing. Add croutons and cheese.",
-        "image": "https://example.com/caesarsalad.jpg"
+        "instructions": "Boil chicken over a stove until fully cooked. Once the chicken is done place to the side to cool. Once fully cooled take your chicken and shred it into bite size pieces. Once all the chicken has been shreded mix all other ingredients into a bowl and serve. Feel free to add more ingredients into the chicken salad as you see fit. Great on any type of bread or crossiants!",
+        "image": "../images/chickensalad.jpg"
       },
       "recipe4": {
-        "recName": "Chocolate Cake",
-        "author": "Grandma Jo",
-        "type": "Dessert",
-        "timeToCook": "50 minutes",
+        "recName": "Chicken n' Dumplings",
+        "author": "The Coal Miners Cook Book",
+        "type": "dinner",
+        "description": "Classic recipe recieving it's roots as Appalachian stable since the great depression. It's a tradition for family reunions and church dinners to have a least on big pot of chicken n dumplings on the table!",
+        "timeToCook": "2 hours",
         "ingredients": [
-          "Flour",
-          "Cocoa powder",
-          "Sugar",
-          "Eggs",
-          "Butter"
+          "Package of boneless Chicken thighs",
+          "1 can of biscuit dough of any type",
+          "1 cup of Chicken Broth",
+          "2 tablespoons of Salt and pepper",
+          "1 can of cream and chicken soup",
+          "2 sticks of celery diced",
+          "1/2 white onion diced",
+          "Optional: Add a little Tony's Creole seasoning to give it an extra kick!"
         ],
-        "instructions": "Mix ingredients. Bake at 350°F for 35 minutes. Let cool and frost.",
-        "image": "https://example.com/chocolatecake.jpg"
+        "instructions": "Prepare a large pot with your onions, celery, tony's, salt and pepper, chicken and chicken broth. Placed the pot on the stove-top over medium heat until the chicken and celery are fully cooked. Once the chicken is cooked take out the chicken and pour in your can of cream of chicken soup. Mix that in with your chicken broth and then open your can of biscuits, take each biscuit puck and divide them into 4 evenly cut pieces. Once you have them all cut up, place the bicuits one at a time and stir the pot. Keep going until all biscuits are added. Then take your cooked chicken and shred it up. Place the chicken back into the soup and start stiring to make sure all the ingredients are incorporated. Let it sit on the stove for about 10-15 minutes with a lid over the pot. Once the time is up turn the stove off and let it cool.",
+        "image": "../images/chickenndumplings.jpg"
+      },
+      "recipe5": {
+        "recName": "Macaroni Salad with Chicken",
+        "author": "The Coal Miners Cook Book",
+        "type": "dinner",
+        "description": "Another classic recipe you will see at any Applachian family gathering. Typically seen during Thanksgiving and Christmas, this recipe makes a nice side dish to any meal!",
+        "timeToCook": "2 hours",
+        "ingredients": [
+          "Package of boneless Chicken thighs",
+          "2 tablespoons of Salt",
+          "1 cup of mayo",
+          "1/2 cup of pickle relish",
+          "1 white onion diced",
+          "1 box of uncooked macaroni"
+        ],
+        "instructions": "Place your chicken in water and boil until fully cool. Once fully cooked put your chicken to the side and let it cool. In the meantime cook your macaroni over the store until the noodles are fully cooked. Once both chicken and macaroni are cooled, shreded your chicken and place all ingedients in a bowl. Feel free to add or take away as many of the ingredients as you wish based on your tastes!",
+        "image": "../images/macronisalad.jpg"
+      },
+      "recipe6": {
+        "recName": "Banana Pudding",
+        "author": "The Coal Miners Cook Book",
+        "type": "desserts",
+        "description": "A traditional dessert at Christmas and Thanksgiving! This recipe holds a soft place in my heart as it was my dad's personal favorite and the first dessert recipe he ever taught me!",
+        "timeToCook": "2 hours",
+        "ingredients": [
+          "3-4 medium length banana's",
+          "2 boxes of no-cook vanilla pudding",
+          "4 cups of milk",
+          "2 boxes of Nilla wafers",
+          "Optional: Whipped Cream"
+        ],
+        "instructions": "First read the instructions on the box of your no-cook vanilla pudding and have them ready. Next cut up your banana's into small size pucks and put them to the side. Grab a large bowl and start layering in this order: pudding, Nilla wafers, and banna's. Keep going until your ingredents runs out. Once you hit the top add a nice pattern with Nilla wafer and then if you want to be even more fancy add in some whipped cream!",
+        "image": "../images/bannanapudding.jpg"
+      },
+      "recipe7": {
+        "recName": "Homemade Country Style Gravy",
+        "author": "The Coal Miners Cook Book",
+        "type": "breakfast",
+        "description": "It's not breakfast unless you have some homemade gravy with your biscuits! Here is a simple yet classic way of making homemade gravy.",
+        "timeToCook": "30 minutes",
+        "ingredients": [
+          "2 cups of self rising flour",
+          "2 cups of buttermilk",
+          "1 tablespoon of butter",
+          "1 teaspoon of salt and pepper"
+  
+        ],
+        "instructions": "On a skillet melt your butter and on a low heat put in a little bit of flour and a little bit of milk. Stir this until it starts to form a dough consistency every few minutes adding more flour and more milk. Keep going until your arms are sore and all ingredients have been mixed together. Add more flour for thickness or add more milk if your gravy is too thick for your liking. Before taking it off the stove add in your salt and pepper to taste then serve. ",
+        "image": "../images/gravy.jpg"
+      },
+      "recipe8": {
+        "recName": "Flapjacks",
+        "author": "The Coal Miner's Cookbook",
+        "type": "breakfast",
+        "description": "These hearty and fluffy pancakes are a classic Appalachian breakfast staple, perfect for starting your day with warmth and comfort.",
+        "timeToCook": "25 minutes",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "2 tbsp sugar",
+          "1 tbsp baking powder",
+          "1/2 tsp salt",
+          "2 eggs",
+          "1 1/2 cups milk",
+          "1/4 cup melted butter or vegetable oil",
+          "Optional: Maple syrup, butter for serving"
+        ],
+        "instructions": "In a large bowl, mix together flour, sugar, baking powder, and salt. In another bowl, whisk eggs, milk, and melted butter. Combine the wet and dry ingredients until just mixed (don't overmix!). Heat a griddle or skillet over medium heat and grease lightly. Pour batter in 1/4 cup portions and cook until bubbles form on the surface. Flip and cook until golden. Serve warm with maple syrup and butter.",
+        "image": "../images/flapjacks.jpg"
+      },
+      "recipe9": {
+        "recName": "Pumpkin Roll",
+        "author": "The Coal Miner's Cookbook",
+        "type": "dessert",
+        "description": "A rich and spiced dessert, this pumpkin roll is perfect for the holidays or any time you want a sweet Appalachian treat.",
+        "timeToCook": "1 hour",
+        "ingredients": [
+          "3/4 cup all-purpose flour",
+          "1 tsp baking powder",
+          "1/2 tsp baking soda",
+          "1 tsp cinnamon",
+          "1/2 tsp nutmeg",
+          "3 eggs",
+          "1 cup sugar",
+          "2/3 cup canned pumpkin",
+          "1 cup powdered sugar (for filling)",
+          "8 oz cream cheese, softened",
+          "1/4 cup butter, softened",
+          "1 tsp vanilla extract"
+        ],
+        "instructions": "Preheat oven to 375°F. Line a jelly roll pan with parchment paper. In a bowl, mix flour, baking powder, baking soda, cinnamon, and nutmeg. In another bowl, beat eggs and sugar until fluffy. Add pumpkin and mix. Gradually add the dry ingredients. Pour the batter into the pan and spread evenly. Bake for 13-15 minutes. While still warm, roll the cake in a towel dusted with powdered sugar. Let cool. Beat cream cheese, butter, and vanilla for filling. Unroll the cake, spread filling, then roll it back up. Refrigerate for at least 30 minutes before slicing.",
+        "image": "../images/pumpkinroll.jpg"
+      },
+      "recipe10": {
+        "recName": "Southern Fried Chicken",
+        "author": "The Coal Miner's Cookbook",
+        "type": "dinner",
+        "description": "Crispy and juicy, this fried chicken recipe is a family favorite that brings comfort and nostalgia to the dinner table.",
+        "timeToCook": "1 hour",
+        "ingredients": [
+          "1 whole chicken, cut into pieces",
+          "2 cups buttermilk",
+          "2 cups all-purpose flour",
+          "1 tsp salt",
+          "1/2 tsp pepper",
+          "1/2 tsp paprika",
+          "1/2 tsp garlic powder",
+          "Vegetable oil for frying"
+        ],
+        "instructions": "Soak chicken pieces in buttermilk for at least 30 minutes. In a shallow dish, mix flour, salt, pepper, paprika, and garlic powder. Heat oil in a deep skillet to 350°F. Dredge chicken in the flour mixture, coating well. Fry in batches, turning occasionally, until golden brown and cooked through, about 15-20 minutes. Drain on paper towels and serve hot.",
+        "image": "../images/friedchicken.jpg"
+      },
+      "recipe11": {
+        "recName": "Homemade Chicken Tenders",
+        "author": "The Coal Miner's Cookbook",
+        "type": "lunch",
+        "description": "Crispy on the outside and tender on the inside, these homemade chicken tenders are perfect for a quick lunch or snack.",
+        "timeToCook": "30 minutes",
+        "ingredients": [
+          "1 lb chicken tenders",
+          "1 cup buttermilk",
+          "1 cup breadcrumbs",
+          "1/2 cup flour",
+          "1/2 tsp salt",
+          "1/2 tsp paprika",
+          "1/4 tsp black pepper",
+          "Vegetable oil for frying"
+        ],
+        "instructions": "Soak chicken tenders in buttermilk for 20 minutes. Mix breadcrumbs, flour, salt, paprika, and pepper in a shallow dish. Heat oil in a skillet to 350°F. Dredge chicken tenders in the breadcrumb mixture, ensuring an even coat. Fry for 3-5 minutes on each side until golden brown and cooked through. Serve with your favorite dipping sauce.",
+        "image": "../images/chickentenders.jpg"
+      },
+      "recipe12": {
+        "recName": "Homemade Southern Style Biscuits",
+        "author": "The Coal Miner's Cookbook",
+        "type": "breakfast",
+        "description": "Flaky, buttery, and delicious, these biscuits are a cornerstone of any Appalachian breakfast.",
+        "timeToCook": "25 minutes",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1 tbsp baking powder",
+          "1/2 tsp salt",
+          "1/4 cup cold butter, cubed",
+          "3/4 cup buttermilk"
+        ],
+        "instructions": "Preheat oven to 425°F. Mix flour, baking powder, and salt in a bowl. Cut in butter until the mixture resembles coarse crumbs. Stir in buttermilk until just combined. Roll out dough on a floured surface and cut into biscuits. Place on a baking sheet and bake for 12-15 minutes until golden brown. Serve warm with butter or jam.",
+        "image": "../images/biscuits.jpg"
+      },
+      "recipe13": {
+        "recName": "Appalachian Cornbread",
+        "author": "The Coal Miner's Cookbook",
+        "type": "lunch",
+        "description": "This classic cornbread recipe is simple, flavorful, and pairs perfectly with soup beans or fried chicken.",
+        "timeToCook": "30 minutes",
+        "ingredients": [
+          "1 cup cornmeal",
+          "1/2 cup all-purpose flour",
+          "1 tbsp sugar",
+          "1 tsp baking powder",
+          "1/2 tsp salt",
+          "1 cup buttermilk",
+          "1 egg",
+          "2 tbsp bacon grease or melted butter"
+        ],
+        "instructions": "Preheat oven to 425°F. Heat a greased cast-iron skillet in the oven. In a bowl, mix cornmeal, flour, sugar, baking powder, and salt. Add buttermilk, egg, and bacon grease, stirring until combined. Pour batter into the hot skillet and bake for 20-25 minutes until golden. Let cool slightly before slicing.",
+        "image": "../images/cornbread.JPG"
+      },
+      "recipe14": {
+        "recName": "Fried Apples",
+        "author": "The Coal Miner's Cookbook",
+        "type": "breakfast",
+        "description": "Sweet and caramelized, these fried apples are a classic Appalachian breakfast side dish.",
+        "timeToCook": "20 minutes",
+        "ingredients": [
+          "4 large apples, peeled and sliced",
+          "1/4 cup butter",
+          "1/2 cup brown sugar",
+          "1 tsp cinnamon",
+          "1/4 tsp nutmeg"
+        ],
+        "instructions": "Melt butter in a skillet over medium heat. Add apples, brown sugar, cinnamon, and nutmeg. Cook, stirring occasionally, until apples are tender and coated in a caramel-like sauce, about 10-15 minutes. Serve warm as a side or over biscuits.",
+        "image": "../images/friedapples.jpg"
       }
-    }
   }
+  
+}
+  

@@ -1,3 +1,9 @@
+/**
+Name: Tamara Slone
+Date: 12/1/24
+Description:This the main page that showcases all recipes within the website. It calls to the recipe component to get into the firebase database.
+ It also features a filtering system that allows the user to filter the recipes based on type. 
+*/
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';

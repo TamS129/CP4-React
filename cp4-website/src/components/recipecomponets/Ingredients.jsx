@@ -1,4 +1,8 @@
-
+/**
+Name: Tamara Slone
+Date: 11/24/24
+Description:This is a subcomponent that organizes the ingredient list for the recipe.
+*/
 import React from 'react';
 
 const Ingredients = ({ ingredients }) => {

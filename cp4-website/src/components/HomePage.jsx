@@ -1,3 +1,8 @@
+/**
+Name: Tamara Slone
+Date: 11/25/24
+Description:This component holds the information for the homepage that displays the logo and links to the about and recipes page.
+*/
 import React from "react";
 import { Link } from "react-router-dom";
 import '../css/home.css';
