@@ -1,0 +1,65 @@
+{
+    "recipes": {
+      "recipe1": {
+        "recName": "BuckEye Balls",
+        "description": "My family's favorite candy for the holidays! These BuckEye Balls or also know as peanut butter balls are oh so sweet!",
+        "author": "Coal Miners Cook Book",
+        "type": "Dessert",
+        "timeToCook": "30 minutes",
+        "ingredients": [
+          "1 1/2 cups of creamy peanut butter",
+          "1/2 cup of unsalted butter",
+          "1 teaspoon of vanilla extract",
+          "1 cup of powder sugar",
+          "2 cups of semi-sweet chocolate chips. Or any chocolate bar of your choosing."
+        ],
+        "instructions": "First mix peanut butter, powder sugar, vanilla extract, and unsalted butter into a bowl. Mix until peanut butter dough turns into a dough like consistency. Roll the peanut butter dough into a ball stick toothpicks into the balls and stick in the freezer to harden for at least 30 minutes. After 30 minutes you can either take your chocolate and microwave for 10 second intervals or temper your chocolate over boiling water. Once the chocolate has melted take your balls and dip them into the chocolate. Place them onto a parchement paper and leave to dry. Wait until chocolate has fully harden before serving. ",
+        "image": ".../public/buckeyeballs.jpg"
+      },
+      "recipe2": {
+        "recName": "Oreo Balls",
+        "description": "Not a fan of buckeye balls? Or maybe your just not a fan of peanut butter. That's okay! These oreo buckeye balls are a good alternative to the classic peanut butter snack! Great for the holidays or if you're dying for something sweet!",
+        "author": "Coal Miners Cook Book",
+        "type": "Dessert",
+        "timeToCook": "30 minutes",
+        "ingredients": [
+          "1 family-size package of Oreos",
+          "1 cup of powder sugar",
+          "1/2 cup of unsalted butter",
+          "2 cups of white chocolate chips. Or any white chocolate bar of your choosing.",
+          "Optional: Added milk chocolate chips/bar to drizzle on top of the oreo balls."
+        ],
+        "instructions": "Take your family size package of oreos and seperate the cookies from the cream. In a food processor crush the oreos until they are small crumbs. (A bag and rolling pin works just as well!) Then take your processed oreos, oreo cream, butter, and powder sugar and mix them all into a seperate bowl. Mix until the mixture develops into a dough-like consistency. Once you have your dough, roll up the mixture into several balls. Stick a toothpick into the balls and place in the freezer for about 30 minutes. Once the 30 minutes is up, grab your white chocolate and either microwave for 10 second intervals until the chocolate is smooth. Or take your chocolate and temper it over boiling water. Once the chocolate is ready, dip your oreo balls into the chocolate mix and leave to dry on a parchment paper. Wait until the chocolate is harden before serving. If you want to make your oreo balls look even more professional, wait until the chocolate is dry. Remove the tooth pick and melt some milk chocolate and place it into an icing bag. Create a few chocolate drizzles over the balls to give it a nice little finish.  ",
+        "image": "https://example.com/pancakes.jpg"
+      },
+      "recipe3": {
+        "recName": "Caesar Salad",
+        "author": "Gordon Ramsay",
+        "type": "Lunch",
+        "timeToCook": "10 minutes",
+        "ingredients": [
+          "Romaine lettuce",
+          "Croutons",
+          "Caesar dressing",
+          "Parmesan cheese"
+        ],
+        "instructions": "Toss lettuce with dressing. Add croutons and cheese.",
+        "image": "https://example.com/caesarsalad.jpg"
+      },
+      "recipe4": {
+        "recName": "Chocolate Cake",
+        "author": "Grandma Jo",
+        "type": "Dessert",
+        "timeToCook": "50 minutes",
+        "ingredients": [
+          "Flour",
+          "Cocoa powder",
+          "Sugar",
+          "Eggs",
+          "Butter"
+        ],
+        "instructions": "Mix ingredients. Bake at 350°F for 35 minutes. Let cool and frost.",
+        "image": "https://example.com/chocolatecake.jpg"
+      }
+    }
+  }

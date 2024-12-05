@@ -1,0 +1,115 @@
+/* home.css */
+.home-page {
+    background: url('../images/coalbackground.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1faee;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .home-text-background {
+    background-color: #ffffff;
+    border-radius: 50%; /* Circle background */
+    padding: 120px 150px; /* Increased padding to cover text, image, and links */
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: #9e7c4b; /* Golden-brown color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    animation: slideInFromTop 1s ease-out;
+  }
+  
+  .home-description {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #9e7c4b; /* Same color as title */
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .home-image {
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .home-image-img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    /* Removed box-shadow and any border */
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .home-button {
+    background-color: #9e7c4b;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    animation: slideInFromBottom 1s ease-out;
+  }
+  
+  .home-button:hover {
+    background-color: #b48360; /* Slightly darker golden-brown */
+  }
+  
+  .home-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

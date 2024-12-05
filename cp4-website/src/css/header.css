@@ -1,0 +1,41 @@
+/* Header styling */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  max-width: 150px; /* Adjust size of your logo */
+}
+
+.search-form input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-form button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul li {
+  position: relative;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
